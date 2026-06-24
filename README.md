@@ -15,7 +15,7 @@
 
 | Number | Name | Topic | Goal |
 | - | - | - | - |
-| **0** | **Ressources and Tools** | AI tool | Learning the whats and hows of the ressources and tools available to you |
+| **0** | **Ressources and Tools** | Basics | Learning the whats and hows of the ressources and tools available to you |
 | **1** | [**Editor UI**](./1-Editor%20UI/README.md) | Basics | Familiarize yourself with using the editor's UI |
 | **2** | **Physics** | GameObjects | Familiarize yourself with the built-in physics |
 | **3** | **Components** | GameObjects | Use components on your game objects |
