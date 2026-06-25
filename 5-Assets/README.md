@@ -15,6 +15,7 @@ You will learn:
 
 > [!TIP]
 > I have included a [.wav audio file](./Boing%20Sound%20Effect.wav), a [.fbx 3d model](./breakdancer.fbx) and a [.zip texture pack](./Pizza001_1K-PNG.zip) inside the repository.
+> I have also included a [unity package](./5-assets.unitypackage) of my scene. Feel free to import it if you want to see the end result.
 
 
 ### Textures
