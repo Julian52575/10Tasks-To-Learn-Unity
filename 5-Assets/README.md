@@ -36,16 +36,16 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 
 ##### Tasks
 
-[] Download any texture pack from anywhere
+[] Download any texture pack from anywhere  
 
 ![pizza texture pack](./PizzaFolder.png)
 
-[] Drag and drop the _(unzipped)_ folder from the file explorer into the Project window
+[] Drag and drop the _(unzipped)_ folder from the file explorer into the Project window  
 
 ![into project window](./FolderToProject.png)
 
-[] Inside the texture folder, do `Right Click`>`Create`>`Material`
-[] Drag and drop the textures into the material parameters
+[] Inside the texture folder, do `Right Click`>`Create`>`Material`  
+[] Drag and drop the textures into the material parameters  
 
 ![Bunch of pizzas](./PizzaObjects.png)
 
@@ -53,7 +53,7 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 > Only worry about configuring `Workflow Mode`, `Base Map`, `Normal Map` as well as `Tiling` and `Offset`.    
 > The others parameters are less useful.
 
-[] Drag the material into the object within the Scene window
+[] Drag the material into the object within the Scene window  
 
 > [!CAUTION]
 > The material might not be adapted to your game object _(look at the silly cylinder)_. 
@@ -72,8 +72,8 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 
 ##### Tasks
 
-[] Download your audio file
-[] Drag and drop it into the Projects window and let Unity import it into an `AudioClip`
+[] Download your audio file  
+[] Drag and drop it into the Projects window and let Unity import it into an `AudioClip`  
 
 > [!CAUTION]
 > Some wav encoding might results in import errors.
@@ -81,9 +81,9 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 
 ![boing](./Audio.png) 
 
-[] Add a `AudioSource` component to your game object
-[] Drag the `AudioClip` into the `Audio Generator` parameter
-[] Check `Play On Awake` and start the game 
+[] Add a `AudioSource` component to your game object  
+[] Drag the `AudioClip` into the `Audio Generator` parameter  
+[] Check `Play On Awake` and start the game   
 
 -------------
 ### 3d Models
@@ -99,8 +99,8 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 - https://www.turbosquid.com/fr/
 
 
-[] Drag and drop the fbx file into the Projects window to import the model
-[] Drag your imported model from the Projects window into the scene
+[] Drag and drop the fbx file into the Projects window to import the model  
+[] Drag your imported model from the Projects window into the scene  
 
 > [!CAUTION]
 > Some model might have a camera associated with it.    
@@ -119,18 +119,18 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 
 ##### Play Animations
 
-[] Download a model with an animation. You can verify by looking at the `Animation` tab and see if there are clips present.
+[] Download a model with an animation. You can verify by looking at the `Animation` tab and see if there are clips present.  
 
-[] `Right Click`>`Create`>`Animation`>`Animator Controller`
-[] Open the `Window`>`Animation`>`Animator` window and select the newly created `Animator Controller` 
-[] Drag and drop the `Animation Clip` into it
-[] `Right click` on it > `Make Transition` into itself (to loop).
+[] `Right Click`>`Create`>`Animation`>`Animator Controller`  
+[] Open the `Window`>`Animation`>`Animator` window and select the newly created `Animator Controller`   
+[] Drag and drop the `Animation Clip` into it  
+[] `Right click` on it > `Make Transition` into itself (to loop).  
 
 ![animator](./Animator.png)
 
-[] Select your model's game object
-[] Add a `Animator` component to it
-[] Drag and drop the `Animator Controller` object into the `Controller` parameter
+[] Select your model's game object  
+[] Add a `Animator` component to it  
+[] Drag and drop the `Animator Controller` object into the `Controller` parameter  
 
 ![play](./BreakDance.gif)
 
