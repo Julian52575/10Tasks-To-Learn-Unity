@@ -34,11 +34,11 @@ Here are some other options I use sometimes :
 Do not worry much about them for now, but know that they will be back in the next task ;)   
 
 
-### Tasks
+##### Tasks
 
 ![CubeLightPlane](./CubeLightPlane.png)
 
-#### 1- Moving the view
+### Moving the view
 
 [] Move the view with `Alt` + `Wheel Click`
 [] Rotate the view around using `Alt` + `Left Click`
@@ -49,7 +49,7 @@ Do not worry much about them for now, but know that they will be back in the nex
 
 [] Focus the view on the selected object by pressing `F` within the Scene window
 
-#### 2- Adding GameObjects
+### Adding GameObjects
 
 [] Use `Right Click` in the Hierarchy to add
 1. A plane _(Y position should be set to 0)_
@@ -58,7 +58,7 @@ Do not worry much about them for now, but know that they will be back in the nex
 
 [] Make the Light a child of the Cube _(see screenshot)_
 
-#### 3- Using game objects edition modes
+### Using game objects edition modes
 
 [] Select the `Main Camera`
 [] Press `E` to enter `Rotate` mode
@@ -75,7 +75,7 @@ Do not worry much about them for now, but know that they will be back in the nex
 ![CameraRotate](./CameraRotate.png)
 
 
-#### 4- Customize your layout
+### Customize your layout
 
 Now, rearrange the window layout  
 

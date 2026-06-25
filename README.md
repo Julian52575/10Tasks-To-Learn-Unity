@@ -3,18 +3,20 @@
 $${\color{red}\text{The best time-to-skill ratio tutorial there is}}$$
 
 #### Read for 5 minutes, work for 5 minutes. 
-#### Complete all the concepts and you will be free to give life to your game.   
-
+#### Complete all the quick courses and you will be free to give life to your game.   
+#### Can you complete all of these in a single day ?
+#### Contains images, gifs and downloadable ressources.
 
 > [!NOTE]
 > This tutorial was built **BY HAND** using **Unity 6.3** and the **"3D (Built-In Render Pipeline)" template**.
 
 > [!NOTE]
-> This is a compilation of my knowledge learned during my year at **Keimyung University** (2025-26) in South Korea.  
+> This is a compilation of my knowledge learned during my year at **Keimyung University** _(2025-26)_ in **South Korea**.  
 
 > [!TIP]
-> Feel free to jump arround the different topics as you wish.   
-> Each topic can be aborded standalone so don't feel bad about skipping.  
+> Feel free to jump around the different topics as you wish.   
+> Each topic can be aborded standalone so don't feel bad about skipping.
+> **Just focus on the learning.**  
 
 ### Concepts
 

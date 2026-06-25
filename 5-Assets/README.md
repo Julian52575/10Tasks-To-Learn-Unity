@@ -34,7 +34,7 @@ _Preferred format: .png_
 More are listed [here](https://gamedevnexus.com/resources/assets/).
 
 
-#### Tasks
+##### Tasks
 
 [] Download any texture pack from anywhere
 
@@ -60,7 +60,7 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 > Create a variant of your material. Then, update `Tiling` and `Offset` until it looks good.
 
 -------------
-#### Audio
+### Audio
 
 <small> _Preferred format: .wav_ </small>
 
@@ -70,7 +70,7 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 - https://freesound.org/
 - https://pixabay.com/sound-effects/search/nature/
 
-#### Tasks
+##### Tasks
 
 [] Download your audio file
 [] Drag and drop it into the Projects window and let Unity import it into an `AudioClip`
@@ -86,7 +86,7 @@ More are listed [here](https://gamedevnexus.com/resources/assets/).
 [] Check `Play On Awake` and start the game 
 
 -------------
-#### 3d Models
+### 3d Models
 
 <small> _Preferred format: .fbx_ </small>
 

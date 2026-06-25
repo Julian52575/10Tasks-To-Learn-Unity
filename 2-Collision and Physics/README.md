@@ -6,12 +6,11 @@
 - How to configure a game object's physics
 - How to disable collision between objects
 
-#### What you will avoid:
-<img src="./chairsFail.gif" width="240"> <img src="./ratFail.gif" width="200">    
+> [!IMPORTANT]
+> <img src="./chairsFail.gif" width="240"> <img src="./ratFail.gif" width="200">    
+> <small> _Examples of fails you will never encounter thanks to this page_ </small>
 
-<small> _Example of fails you will never encounter thanks to this lesson_ </small>
-
-An image is worth a thousand words, so this page will contain a billion words within multiple gifs:
+An image is worth a thousand words, this page contains a billion words inside its many gifs:
 
 ### Colliders vs Rigidbodies
 
@@ -101,7 +100,7 @@ You can use it to disable collision between objects.
 Enabling kinematic disable gravity and other object's force.    
 The object will only update its tranform through its scripts, but still cause updates to the other objects' transforms.
 
-#### Tasks
+##### Tasks
 
 [] Enable an object's `is Kinematic` RigidBody parameter
 [] Create a new script
