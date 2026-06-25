@@ -27,12 +27,29 @@ An image is worth a thousand words, so this page will contain a billion words wi
 
 ### Collider
 
+![all colliders](./allColliders.png)
+###### _All available colliders, trust your instinct on which one to use_
+
+> [!NOTE]
+> Parameters differs depending on the collider type.
+> The most useful ones are:
+> - `Is Trigger` _(this component will not be used for physics, but user scripts can use it to check collision)_
+> - `Provides Contacts` _(store collision data to be accesed/used anytime)_
+> - `Layer Overrides` _(see below)_
+> - `Height`
+> - `Radius` 
+
+> [!TIP]
+> You can use any type of collider with any game object.
+> A cube could have a capsule collider if you need extra space for your hitbox.
+> ![transCube](./cubeWithCapsuleCollider.gif)
+
 ### Rigidbody
 
-![70 vs 1](./Mass70vs!.gif)
-###### _Same simulation as before. The ball's mass is now 70 but the mass of the step is still 1._
+![70 vs 1 mass](./Mass70vs!.gif)
+###### _The ball's mass is now 70 but the mass of the step is still 1._
 
-#### Tasks
+##### Tasks
 
 [] Create a Sphere game object
 [] Create other shapes
@@ -41,12 +58,20 @@ An image is worth a thousand words, so this page will contain a billion words wi
 | [] Play the scene
 | 🔁 _repeat until bored_
 
-#### Ignore layers
+> [!TIP]
+> The only parameters worth worrying about are:
+> - `Mass`
+> - `Use Gravity`
+> - `Constraints` to freeze any of the tranform's Position/Rotation 
+> - `Layer Overrides` to include/exclude some other objects (see below)
+> - `is Kinematic` (see below)
+
+### Ignore layers
 
 Both Colliders and RigidBodies have a properties that allows you to configure interactions with different layers.
 You can use it to disable collision between objects.
 
-#### Tasks
+##### Tasks
 
 [] `Add Layer...` and create a layer in one of the 26 spots available
 [] Assign the layer to one of your object   
@@ -64,7 +89,7 @@ You can use it to disable collision between objects.
 > - 2 custom layers (best) and exclude them in all gameobject's components
 
 
-#### RigidBody Kinematic and script movement
+### RigidBody Kinematic and script movement
 
 > _in British English_
 > _adjective_
@@ -99,4 +124,4 @@ void FixedUpdate()
 ----------
 
 **You are now a master of Unity's physics and saved yourself hours of work.**
-[GO LEARN SOMETHING ELSE](./../README.md#Concepts)
+[LET'S LEARN SOMETHING ELSE](./../README.md#Concepts)
